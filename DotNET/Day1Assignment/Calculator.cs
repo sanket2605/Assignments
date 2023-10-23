@@ -1,3 +1,11 @@
+//Q.Create class calculator with two method Add and product. Create object and call method
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Permissions;
+using System.Text;
+using System.Threading.Tasks;
 namespace ConsoleD1
 {
     internal class Calculator
