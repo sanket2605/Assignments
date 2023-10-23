@@ -1,5 +1,11 @@
 Q2.Create class library with method fact() which will return factorial of a number. Use it in console application
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Permissions;
+using System.Text;
+using System.Threading.Tasks;
 namespace Factorial
 {
     public class Class1
