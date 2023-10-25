@@ -18,11 +18,7 @@ namespace ConsoleApp2
         string name;
         int id;
         int balance;
-        static Account()
-            {
-            Console.WriteLine("State Of India");
-            }
-
+        
         public Account(string name, int balance)
         {
                 this.name = name;
