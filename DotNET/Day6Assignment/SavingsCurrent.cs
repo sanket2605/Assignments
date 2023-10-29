@@ -30,13 +30,16 @@ namespace ConsoleApp3
         string name;
         public double balance;
         static double intrate = 0.07;
+        public string Name {  get { return name; } set {  name = value; } }
+        public double Balance { get { return balance; } protected set {balance = value; } }
+        public int ID { get { return id; } }
 
         public Account(string name, double balance)
         {
             id = ++getid;
-            this.name = name;
+            Name = name;
             if (balance > 1000)
-            { this.balance = balance; }
+            { Balance = balance; }
             else
             {
                 throw new Exception("Minimum Balance should not be less than 1");
