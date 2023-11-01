@@ -6,12 +6,14 @@ namespace Day10
         static void Main(string[] args)
         {
             int[] a = { 5, 8, 9, 2, 1 };
-             
+
+            //Using LinQ
             var subset= from i in a where i<=5 select i;
             foreach (var item in subset)
             {
                 Console.WriteLine(item);
             }
+            //using Lambda
             var subset1=a.Where(i => i<=5).Select(i => i);
             foreach (var item in subset1)
             {
