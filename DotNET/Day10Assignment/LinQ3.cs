@@ -2,7 +2,7 @@
 
 namespace Day10
 {
-    internal class Program
+    internal class LinQ3
     {
         static void Main(string[] args)
         {
