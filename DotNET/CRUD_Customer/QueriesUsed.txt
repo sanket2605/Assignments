@@ -1,0 +1,45 @@
+1.
+CREATE PROCEDURE storedata
+       @pname     NVARCHAR(Max), 
+       @paddress  NVARCHAR
+               
+AS 
+BEGIN 
+  INSERT INTO Customer( Name ,Address) VALUES ( @pname , @paddress )
+  End
+
+2.
+CREATE PROCEDURE spGetProductsByName
+       @pname     NVARCHAR(Max) 
+            
+AS 
+BEGIN 
+  SELECT * from Customer
+  where Name like @pname + '%'
+  End
+
+3.
+CREATE PROCEDURE displayall
+AS 
+BEGIN 
+  SELECT * from Customer
+  
+  End
+
+4.
+CREATE PROCEDURE delCustomer  
+    @pid int
+AS 
+BEGIN 
+  DELETE FROM Customer WHERE id=@pid
+End
+
+5.
+CREATE PROCEDURE spGetProductsById
+       @pid    int 
+            
+AS 
+BEGIN 
+  SELECT * from Customer
+  where Id like @pid + '%'
+  End
