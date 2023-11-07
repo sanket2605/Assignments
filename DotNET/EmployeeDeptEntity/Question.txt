@@ -1,0 +1,21 @@
+Create a poco class employee with ID,  name , salary,  Deptid(foreign key). 
+Create another class Dept. With memeber I'd,  depth name. 
+Create a context class which will derive from Dbcontext.
+Set connection string in onConfiguring method.
+DOWNLOAD four migration file , add migration update database 
+
+Task 1.
+1.Display all employee who is in dept
+2.Display all employee 
+3. Enter data in dept. Table then in employee table 
+4. Add employee record through entity
+5. Delete employee where Emp ID is 3 
+6. Display dept. Name and employee within it.
+7.Display all employee who's salary is >80k
+8. Display all employee who s name starting with S.
+
+
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
