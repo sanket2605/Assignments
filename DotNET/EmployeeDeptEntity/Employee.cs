@@ -17,5 +17,10 @@ namespace EmployeeDept_CodeFirst.Models
 
         [ForeignKey("DeptId")]
         public int? DeptId { get; set; }
+        public override string ToString()
+        {
+           return String.Format("{0}  {1}  {2}  {3}",Id, Name, Salary, DeptId);
+        }
+
     }
 }
