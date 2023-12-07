@@ -1,0 +1,7 @@
+1] Create a form which will accept only qualification from user
+
+2] Create a Bean class with a method which will prove with advice
+
+3] A "MainServ" will take input and will give an advice from a Bean class method
+
+4] The advice should be displayed on "ExpertAdvice.jsp" page 
