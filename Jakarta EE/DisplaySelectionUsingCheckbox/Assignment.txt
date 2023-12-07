@@ -1,0 +1,7 @@
+1] In "Module.jsp" create <option> i.e. drop-down list.
+   Values should be java,C++, Oracle.
+2] when user selects, a particular option and click on submit button, request should go to servlet.
+3] In servlet u read the request parameter.
+   if the value is "java" forward to j2se.jsp,
+   if the value is "C++" forward to cplusplus.jsp
+  if the value is "oracle" forward to ora.jsp
