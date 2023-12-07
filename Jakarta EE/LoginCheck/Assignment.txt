@@ -1,0 +1,7 @@
+1) In "index.jsp" accept user name and password
+
+2) On submit control should go to "MainServ"
+
+3) "MainServ" will check if user name and password is "scott" and "tiger" respectively,
+    it will forward to "Welcome.jsp" which will display welcome message.
+4)  If user name and password is not correct, "MainServ" will forward to "index.jsp".
