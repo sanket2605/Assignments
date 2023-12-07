@@ -1,0 +1,22 @@
+1)create a table in MySQL "student" with 
+	rollno int primary key
+	name varchar
+	age int
+	address varchar
+
+2)now create "Student.jsp"
+	accept
+		rollno
+		name
+		age
+		address
+
+3)on submit control should go to "StudentServ".
+"StudentServ" will get the request parameters and add a record in database, this servlet also will query to the database
+"select rollno from student" 
+
+4)rollno retrieved from database will be added inside ArrayList.
+
+5)ArrayList will be stored inside "request" attribute and finally servlet will forward the request to "Report.jsp"
+"Report.jsp" will retrieve ArrayList from request attribute and display rollnos. 
+Here you have to use "forEach" tag of JSTL.
