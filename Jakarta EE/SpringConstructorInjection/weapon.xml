@@ -4,9 +4,7 @@
 	xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 <bean id="soldier" class="mypack.Soldier">
-    <property name="weapon">
-        <ref bean="gun"/> 
-    </property>
+ <constructor-arg name="weapon" ref="gun"/>
 </bean>
 <bean id="gun" class="mypack.Gun"/>
 <bean id="sword" class="mypack.Sword"/>
